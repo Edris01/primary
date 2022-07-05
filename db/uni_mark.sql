@@ -1,0 +1,2 @@
+
+-- mycursor.execute("CREATE TABLE Teachers (name VARCHAR(255) not null, subject VARCHAR(255) not null, address VARCHAR(255) not null, passcode VARCHAR(255) not null)")mycursor.execute("CREATE TABLE Teachers (name VARCHAR(255) not null, subject VARCHAR(255) not null, address VARCHAR(255) not null, passcode VARCHAR(255) not null)")
