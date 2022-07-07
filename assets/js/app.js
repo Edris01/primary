@@ -24,7 +24,6 @@ form.onsubmit = (e)=>{
       usernameField.classList.add("error");
       usernameField.classList.remove("valid");
       let errorTxt = usernameField.querySelector(".error-txt");
-      //if email value is not empty then show please enter valid email else show Email can't be blank
       (usernameInput.value != "") ? errorTxt.innerText = "Enter a valid Username" : errorTxt.innerText = "Username Required";
     }else{
       usernameField.classList.remove("error");
